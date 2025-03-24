@@ -1,7 +1,7 @@
 PSQL="psql -X --username=freecodecamp --dbname=periodic_table --tuples-only -c"
 ELEMENT=$1
 
-if [[ -z $ELEMENT ]]; then
+# if [[ -z $ELEMENT ]]; then
   echo "Please provide an element as an argument."
 else
   
